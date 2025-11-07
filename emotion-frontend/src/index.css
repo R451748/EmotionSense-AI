@@ -1,0 +1,19 @@
+/* Glowing border when result appears */
+.glow-border {
+  box-shadow: 0 0 15px rgba(255, 193, 7, 0.8), 0 0 30px rgba(255, 193, 7, 0.4);
+  transition: box-shadow 0.4s ease-in-out;
+}
+
+/* Smooth emoji bounce animation */
+@keyframes bounceEmoji {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+.animate-emoji {
+  animation: bounceEmoji 1s ease-in-out;
+}

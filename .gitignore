@@ -1,0 +1,26 @@
+# Git ignore file 
+# React Frontend
+emotion-frontend/node_modules/
+emotion-frontend/build/
+emotion-frontend/.env.local
+emotion-frontend/.env.development.local
+emotion-frontend/.env.production.local
+
+# Spring Boot Backend
+emotion-backend/target/
+emotion-backend/.mvn/
+emotion-backend/mvnw
+emotion-backend/mvnw.cmd
+emotion-backend/.idea/
+emotion-backend/.settings/
+emotion-backend/*.iml
+
+# Python Service
+emotion-service/venv/
+emotion-service/__pycache__/
+emotion-service/datasets/glove.6B/
+emotion-service/.env
+
+# Logs & Misc
+*.log
+.DS_Store

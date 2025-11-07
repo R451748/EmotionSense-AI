@@ -1,0 +1,10 @@
+flask
+torch
+torchaudio
+transformers
+deepface
+speechbrain
+pillow
+tensorflow
+numpy
+opencv-python
